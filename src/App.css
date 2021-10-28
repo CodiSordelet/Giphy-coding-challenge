@@ -1,5 +1,43 @@
 .App {
-  text-align: center;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+}
+
+.button {
+  height: 2em;
+  width: 2em;
+  background-color: rgb(206, 204, 204);
+  border-radius: 50%;
+  border-width: 0;
+  margin: 2px;
+}
+
+.favorited {
+  color: tomato;
+}
+
+.margins {
+  margin: 1em;
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.selected {
+  background-color: #61dafb;
 }
 
 .App-logo {
